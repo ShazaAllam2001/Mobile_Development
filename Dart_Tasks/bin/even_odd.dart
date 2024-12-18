@@ -1,4 +1,3 @@
-//import 'package:dart_tasks/total_cost.dart' as total_cost;
 
 void main(List<String> arguments) {
   List<int> numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
