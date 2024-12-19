@@ -13,6 +13,6 @@ https://github.com/ShazaAllam2001/Mobile_Development/
 ### To Run Any File:
 1. Open the Terminal to the [bin Folder](https://github.com/ShazaAllam2001/Mobile_Development/tree/main/Dart_Tasks/bin)
 2. Type the command
-'''
+```
 dart run <file-name>
-'''
+```
