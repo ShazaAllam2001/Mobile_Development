@@ -9,7 +9,7 @@ https://github.com/ShazaAllam2001/Mobile_Development/
 - Categorize a list of numbers into even or odd  [even_odd.dart](https://github.com/ShazaAllam2001/Mobile_Development/tree/main/Dart_Tasks/bin/even_odd.dart)
 
 - Check any number positive or negative and even or odd  [even_odd_neg_pos.dart](https://github.com/ShazaAllam2001/Mobile_Development/tree/main/Dart_Tasks/bin/even_odd_neg_pos.dart)
-
+ 
 ### To Run Any File:
 1. Open the Terminal to the [bin Folder](https://github.com/ShazaAllam2001/Mobile_Development/tree/main/Dart_Tasks/bin)
 2. Type the command
