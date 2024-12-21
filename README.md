@@ -12,6 +12,8 @@ https://github.com/ShazaAllam2001/Mobile_Development/
 
 - Get the minimum value of a list of numbers  [min_element.dart](https://github.com/ShazaAllam2001/Mobile_Development/tree/main/Dart_Tasks/bin/min_element.dart)
 
+- Create Bank Account Class [bank_account.dart](https://github.com/ShazaAllam2001/Mobile_Development/tree/main/Dart_Tasks/bin/bank_account.dart)
+
  
 ### To Run Any File:
 1. Open the Terminal to the [bin Folder](https://github.com/ShazaAllam2001/Mobile_Development/tree/main/Dart_Tasks/bin)
@@ -28,3 +30,5 @@ dart run <file-name>
 - Check any number positive or negative and even or odd  [even_odd_neg_pos.jpg](https://github.com/ShazaAllam2001/Mobile_Development/tree/main/Dart_Tasks/output_screenshots/even_odd_neg_pos.jpg)
 
 - Get the minimum value of a list of numbers  [min_element.jpg](https://github.com/ShazaAllam2001/Mobile_Development/tree/main/Dart_Tasks/output_screenshots/min_element.jpg)
+
+- Create Bank Account Class [bank_account.jpg](https://github.com/ShazaAllam2001/Mobile_Development/tree/main/Dart_Tasks/output_screenshots/bank_account.jpg)
