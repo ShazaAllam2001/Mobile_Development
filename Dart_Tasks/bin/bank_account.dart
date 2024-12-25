@@ -2,13 +2,13 @@ class BankAccount {
   int _accountID;
   int _balance;
 
-  BankAccount(int accountID): this.balance(accountID, 0); // first constructor
+  BankAccount(this._accountID, this._balance); // first constructor
 
   BankAccount.balance(this._accountID, [this._balance = 0]); // second constructor (named constructor)
 
   void withdraw(int amount) {
     if (amount < 0) {
-      throw 'Negative Amount';
+      throw 'Withdraw with Negative Amount';
     }
 
     if (amount <= _balance) {
@@ -21,6 +21,9 @@ class BankAccount {
   }
 
   void deposit(int amount) {
+    if (amount < 0) {
+      throw 'Deposit with Negative Amount';
+    }
     _balance += amount;
     print("Successful Deposit Transaction with $amount");
   }
@@ -36,10 +39,12 @@ void main(List<String> arguments) {
   // With First Constructor
   print("First Constructor");
   try {
-    var bank1 = BankAccount(111);
+    var bank1 = BankAccount(111, 100);
     bank1.deposit(1000);
     bank1.withdraw(500);
     bank1.deposit(150);
+    bank1.accountInfo();
+    bank1.deposit(-50);
     bank1.accountInfo();
   }
   catch (e) {
